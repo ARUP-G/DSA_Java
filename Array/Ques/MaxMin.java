@@ -1,4 +1,4 @@
-package DSA.Array_ArrayList.Ques;
+
 
 public class MaxMin {
     public static void main(String[] args) {
