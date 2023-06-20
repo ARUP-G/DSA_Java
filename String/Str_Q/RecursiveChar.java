@@ -1,4 +1,3 @@
-package DSA.String.Str_Q;
 
 public class RecursiveChar {
     public static void main(String[] args) {
