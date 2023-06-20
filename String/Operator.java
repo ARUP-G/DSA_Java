@@ -1,4 +1,4 @@
-package DSA.String;
+
 // Operator overloading is only available for '+' operator for String concatenation/joining
 import java.util.ArrayList;
 
