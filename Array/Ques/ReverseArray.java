@@ -1,5 +1,3 @@
-package DSA.Array.Ques;
-
 
 public class ReverseArray {
     public static void main(String[] args) {

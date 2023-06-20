@@ -1,4 +1,4 @@
-package DSA.Array_ArrayList.Ques;
+
 import java.util.Arrays;
 //using sorting
 // time complexity = O(n log n)
