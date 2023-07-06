@@ -1,4 +1,4 @@
-package DSA.Linear_Search;
+//package DSA.Linear_Search;
 
 public class LS_min_num {
     public static void main(String[] args) {

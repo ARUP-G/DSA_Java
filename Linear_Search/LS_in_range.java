@@ -1,4 +1,4 @@
-package DSA.Linear_Search;
+//package DSA.Linear_Search;
 
 public class LS_in_range {
     public static void main(String[] args) {
