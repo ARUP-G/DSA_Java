@@ -1,23 +1,23 @@
 package DSA.Recursion;
 
 public class A {
-    // public static void callRe(int n) {
-    // if (n == 6) { // Base Case
-    // return;
-    // }
-    // System.out.println(n);
-    // callRe(n + 1); // recursion call
-    // }
+    public static void callRe(int n) {
+    if (n == 6) { // Base Case
+    return;
+    }
+    System.out.println(n);
+    callRe(n + 1); // recursion call
+    }
 
-    // public static void printSum(int i, int n, int sum) {
-    // if (i > n) {
-    // System.out.println(sum);
-    // return;
-    // }
-    // sum += i;
-    // printSum(i + 1, n, sum);
+    public static void printSum(int i, int n, int sum) {
+    if (i > n) {
+    System.out.println(sum);
+    return;
+    }
+    sum += i;
+    printSum(i + 1, n, sum);
 
-    // }
+    }
     static int fibo(int n) { // fibonachi number
         if (n < 2) {
             return n;

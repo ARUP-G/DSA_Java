@@ -1,4 +1,4 @@
-package DSA.Array.Ques;
+
 
 public class ContainsDuplicate {
     public static void main(String[] args) {

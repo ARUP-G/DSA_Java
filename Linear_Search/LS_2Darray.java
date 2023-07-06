@@ -1,4 +1,4 @@
-package DSA.Linear_Search;
+//package DSA.Linear_Search;
 
 import java.util.Arrays;
 
