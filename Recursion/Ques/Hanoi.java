@@ -1,4 +1,4 @@
-package DSA.Recursion.Q;
+package DSA.Recursion.Ques;
 // Tower of hanoi
 public class Hanoi {
 

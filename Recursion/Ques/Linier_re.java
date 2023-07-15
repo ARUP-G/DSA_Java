@@ -1,4 +1,4 @@
-package DSA.Recursion.Q;
+package DSA.Recursion.Ques;
 
 public class Linier_re {
     public static void main(String[] args) {
