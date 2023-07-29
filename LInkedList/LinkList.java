@@ -1,4 +1,4 @@
-package DSA.LInkedList;
+package DSA_Java.LinkedList;
 
 public class LinkList { // Linked list class
     //nodes-> data + next(pointer/reference)

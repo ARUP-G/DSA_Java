@@ -1,4 +1,4 @@
-package DSA.LInkedList;
+package DSA_Java.LinkedList;
 
 public class LL_Main {
     public static void main(String[] args) {
