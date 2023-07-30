@@ -1,4 +1,4 @@
-package DSA_Java.Array.Ques;
+
 //Given an array of integers, print sums of all subsets in it. Output sums can be printed in any order.
 //        Examples :
 //        Input : arr[] = {2, 3}
