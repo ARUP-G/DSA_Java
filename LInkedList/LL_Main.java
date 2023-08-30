@@ -1,8 +1,9 @@
-package DSA_Java.LinkedList;
+package DSA.LInkedList;
 
 public class LL_Main {
     public static void main(String[] args) {
 
+        // make a linked-list
         LinkList list1 = new LinkList();
 
         //add in front

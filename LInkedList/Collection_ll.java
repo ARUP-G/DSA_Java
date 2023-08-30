@@ -1,5 +1,4 @@
-package DSA_Java.LinkedList;
-
+package DSA.LInkedList;
 import java.util.LinkedList;
 public class Collection_ll {
     public static void main(String[] args) {
@@ -34,6 +33,14 @@ public class Collection_ll {
 
         // Delete
 //        list.remove("F");
+        System.out.println(list);
+        
+        list.removeFirst();
+        System.out.println(list);
+
+        list.removeLast();
+        System.out.println(list);
+
 
         System.out.println(list);
 
