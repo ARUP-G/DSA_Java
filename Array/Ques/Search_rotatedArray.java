@@ -49,20 +49,27 @@ public class Search_rotatedArray {
         {
             mid = (left+right)/2;
 
+            //  If the mid = target
             if(nums[mid]==target)
                 return mid;
 
+            // If middle element is bigger than left element
             else if(nums[mid]>=nums[left])
             {
-                if(target<=nums[mid] && target>=nums[left])
+                // if target is in between left and middle element
+                if(target>=nums[left] && target<=nums[mid]  )
                     right = mid-1;
+
+                // if target is in between middle and right element
                 else
                     left = mid+1;
             }
+            // if middle element is bigger than right element
             else
-            {
-                if(target>=nums[mid]&& target<=nums[right])
+            {   // if target is in between mid and right element
+                if(target>=nums[mid] && target<=nums[right])
                     left = mid+1;
+                // if target is in between left and middle element
                 else
                     right = mid-1;
             }

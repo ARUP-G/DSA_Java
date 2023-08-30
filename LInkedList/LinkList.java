@@ -1,4 +1,4 @@
-package DSA_Java.LinkedList;
+package DSA.LInkedList;
 
 public class LinkList { // Linked list class
     //nodes-> data + next(pointer/reference)
@@ -14,7 +14,7 @@ public class LinkList { // Linked list class
 
     // var (items of the LinkList class)
     private Node head; // This represents the starting node of a LinkedList
-    private Node tail;
+    //private Node tail;
     private int size;
 
     LinkList(){
@@ -51,7 +51,7 @@ public class LinkList { // Linked list class
          // 3) If the LinkedList is not empty
          // make a temporary node that resembles head of the LinkedList
          Node temp = head;
-         // 4) Traverse through the LinkedLIst
+         // 4) Traverse through the LinkedList
          while (temp.next != null){ //till we reach the last node
             temp = temp.next; // make the immediate next node as temporary node
          }
